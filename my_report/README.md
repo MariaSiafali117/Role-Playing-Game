@@ -45,14 +45,105 @@ test
 
 Για να γίνει αυτό έπρεπε να δημιουργήσω τα animation με όλες τις κινήσεις τις κινήσεις που ήθελα να κάνει ο παίχτης μου. Αρχικά έφτιαξα κίνηση ώστε ο παίχτης μου να τρέχει σε όλες τις κατευθύνσεις. Στη συνέχεια έφτιαξξα την κίνηση όταν θα πέφτει κάτω και όταν θα "πυροβολεί" τις οποίες θα τις χρειαστώ αργότερα. Προκειμένου να συνδέσώ τις κινήσεις σωστά στον animator δυσκολεύτηκα αρκετά καθώς οι οδηγίες στο tutorial δεν ήταν σαφής και παρέλλειπαν κάποια στάδια. Για αυτό βοηθήθηκα απο το παρακάτω βίντεο.  
 
+<li> Διαμορφωμένη πίστα με εχθρούς και αντικείμενα </li>
+
+
+![Screenshot (40)](https://user-images.githubusercontent.com/101007425/208192927-68fb8f99-6ade-4a27-a2e0-adea8d80de9b.png)
+
+
 Για την κίνηση του εχθρού μου ακολούθησα τα βήματα του tutorial και ήταν αποτελεσματικά. 
 
 Πηγαίνοτας στο επόμενο βήμα κάνοντας τον παίχτη να πυροβολεί και να χτυπάει τον εχθρό, μπορώ να πω ότι δυσκολεύτηκα αρκετά. Έπρεπε να συνδυάσω όλες τις κινήσεις του παίχτη, του εχθρού και του αντικειμένου που θα έπρεπε να εκτοξεύει ο παίχτης μου μαζί με τρεις διαφορετικούς κώδικες. Αφού πειραματίστηκα με τους κώδικες του tutorial σε συνδυασμό με το lab7, συνειδητοποίησα ότι ο πιο αποτελεματικός ήταν ο κώδικας του tutorial τον οποίο και χρησιμοποήσα σε όλα τα scripts μου. Χρειάστηκα αρκετό χρόνο για να καταλάβω πώς δουλεύουν οι κώδικες ώστε να συνδέσω τα animations κατάλληλα. Εν τέλει τα έκανα όπως τα ήθελα. 
+
+
+<li> Παίχτης </li> 
+
+
+![Screenshot (73)](https://user-images.githubusercontent.com/101007425/208191413-19951749-f919-4651-b41a-44b13da4237b.png)
+
+
+
+
+![Screenshot (41)](https://user-images.githubusercontent.com/101007425/208190802-8d6b374b-992b-450f-9cfb-1287e1560728.png)
+
+
+
+![Screenshot (74)](https://user-images.githubusercontent.com/101007425/208191832-7516c4fa-f088-4f19-a740-47fe741816ff.png)
+
+
+
+![Screenshot (75)](https://user-images.githubusercontent.com/101007425/208191834-5076f97c-edf5-416b-82ea-30a86db15350.png)
+
+
+
+![Screenshot (76)](https://user-images.githubusercontent.com/101007425/208191838-1ac5854b-76c6-4bae-b459-6ffa1051639b.png)
+
+
+
+
+
+<li> Εχθρός </li> 
+
+![Screenshot (51)](https://user-images.githubusercontent.com/101007425/208191221-89d244ad-56e9-4230-8ce4-bb2695d07904.png)
+
+
+![Screenshot (58)](https://user-images.githubusercontent.com/101007425/208192068-14d89f4c-93d7-4894-855d-a3eedb70a0fc.png)
+
+
+![Screenshot (59)](https://user-images.githubusercontent.com/101007425/208192074-c5645380-ce74-4685-a075-3caf319caa10.png)
+
+
+![Screenshot (60)](https://user-images.githubusercontent.com/101007425/208192077-c72354fb-25ea-4f70-b675-fe2ae48a0e89.png)
+
+
+
+
+<li> Σφαίρα </li> 
+
+
+![Screenshot (52)](https://user-images.githubusercontent.com/101007425/208191301-a31f2119-bc75-440b-ab93-e409431cd2d0.png)
+
+
+![Screenshot (77)](https://user-images.githubusercontent.com/101007425/208191924-c32bcd91-73e8-40c4-8c7c-2164f48c08ce.png)
+
+
+<li> Πέτρα </li>
+
+
+![Screenshot (61)](https://user-images.githubusercontent.com/101007425/208192229-a31ad456-5d50-4836-82d0-f6e69190e70d.png)
+
+
+<li> Πιθάρια </li>
+
+
+![Screenshot (54)](https://user-images.githubusercontent.com/101007425/208192312-4d4aaa55-be65-48f5-8d8b-7973c9e6e785.png)
+
 
 Για το τελευταίο στάδιο αυτού του παραδοτέου ακολούθησα τις οδηγίες μέχρι την μέση περίπου, διότι τα υπόλοιπα δεν έτρεχαν σωστά το πρόγραμμα.Συγκεκριμένα συμφωνα με τις οδηγίες, δημιουργούνταν προβλήματα προκειμένου ο  παίχτης να μην βγαίνει από τα όρια της πίστας. Για να το διορθώσω αυτό απλά έβαλα Colliders στα όρια μου ώστε ο παίχτης να μην μπορει να ξεφύγει από αυτά.
 
 Αφού βεβαιώθηκα ότι όλα λειτουργούν σωστά όπως τα ήθελα, έκανα built το παιχνίδι μου με τον ίδιο τρόπο όπως στο προηγούμενο παραδοτέο και το ανέβασα στο GidHub.
 
+
+<li> Εικόνες από το παιχνίδι </li>
+
+![Screenshot (64)](https://user-images.githubusercontent.com/101007425/208193251-075d28f6-1157-413b-b2d0-e2f6ff293104.png)
+
+
+![Screenshot (66)](https://user-images.githubusercontent.com/101007425/208193254-6bafffe5-21f3-4f58-b5b2-ec0a6bed04bb.png)
+
+
+![Screenshot (68)](https://user-images.githubusercontent.com/101007425/208193478-b2655a48-6a70-4da7-b964-50f2452f09f8.png)
+
+
+![Screenshot (67)](https://user-images.githubusercontent.com/101007425/208193257-0ab68a21-0f0a-418f-9159-28826d1c3c87.png)
+
+
+
+![Screenshot (70)](https://user-images.githubusercontent.com/101007425/208193265-ec5e970a-9202-49f2-8fd8-a8ae0dba61d9.png)
+
+
+
+![Screenshot (71)](https://user-images.githubusercontent.com/101007425/208193268-467a5aa6-0bad-450a-99a3-04d9303a289d.png)
 
 
 
